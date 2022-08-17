@@ -8,18 +8,18 @@
 */
 int func(List fruits) {
   int i = 0;
-  int m = 0;
+  int x = 0;
   while (i < fruits.length) {
     if (fruits[i] == "apple") {
-      m += 1;
+      x += 1;
       i++;
     } else {
       i++;
     }
   }
-  return m;
+  return x;
 }
 
 void main() {
-  print(func(["apple", "banana", "apple", "pear"]));
+  print(func(["apple", "banana", "apple", "peach"]));
 }
