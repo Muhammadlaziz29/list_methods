@@ -7,4 +7,23 @@
         list: return answer
 */
 
-void main() {}
+List <int> func(List<String> ls) {
+    List <int> ans = [0];
+    int idx = 0;
+  
+    while(idx<ls.length) {
+        if (ls[idx]=='apple') {
+            ans.add(idx);
+            ans[0]+=1;
+        }
+        idx+=1;
+
+    }
+   
+    return ans;
+
+   
+}
+ void main() {
+        print(func(["apple", "apple", "apple", "apple", "kiwi"]));
+    }
