@@ -17,5 +17,5 @@ List func(List fruits1, List fruits2) {
 }
 
 void main() {
-  print(func(["apple", "banana"], ["kiwi", "pear"]));
+  print(func(["apple", "banana"], ["kiwi", "peach"]));
 }
