@@ -16,5 +16,5 @@ int func(List numbers, int i) {
 }
 
 void main() {
-  print(func([1,2,3,4,5],1));
+  print(func([3,2,3,4,5],1));
 }
