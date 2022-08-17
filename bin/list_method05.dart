@@ -10,4 +10,14 @@
         list: return answer
 */
 
-void main() {}
+List func(List fruits1, List fruits2) {
+  fruits2.insert(0,fruits1.last);
+ fruits1.removeLast();
+
+ return fruits1+fruits2;
+}
+
+void main() {
+  print(func([6, 8, 1], [3, 5, 7]));
+}
+
