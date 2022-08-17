@@ -14,9 +14,7 @@ List func(List fruits) {
     if (fruits[i] == "apple") {
       fruits.remove("apple");
       i++;
-    } else {
-      i++;
-    }
+    } 
   }
   return fruits;
 }
