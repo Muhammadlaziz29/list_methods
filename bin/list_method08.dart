@@ -7,4 +7,21 @@
         list: return answer
 */
 
-void main() {}
+List func(List fruits) {
+  int i = 0;
+  
+  while (i < fruits.length) {
+    if (fruits[i] == "apple") {
+      fruits.remove("apple");
+      i++;
+    } else {
+      i++;
+    }
+  }
+  return fruits;
+}
+
+void main() {
+  print(func(["apple", "banana", "apple", "pear"]));
+}
+
