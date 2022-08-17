@@ -22,5 +22,5 @@ int func(List numbers) {
 }
 
 void main() {
-  print(func([1, 0, 1, 1, 0, 1, 1]));
+  print(func([0, 0, 1, 1, 0, 1, 1]));
 }
