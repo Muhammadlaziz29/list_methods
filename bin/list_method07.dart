@@ -7,4 +7,20 @@
         int: return answer
 */
 
-void main() {}
+int func(List numbers) {
+  int i = 0;
+  int x = 0;
+  while (i < numbers.length) {
+    if (numbers[i] == 0) {
+      x += 1;
+      i++;
+    } else {
+      i++;
+    }
+  }
+  return x;
+}
+
+void main() {
+  print(func([1, 0, 1, 1, 0, 1, 1]));
+}
