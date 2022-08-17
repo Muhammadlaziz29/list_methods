@@ -18,6 +18,6 @@ List func(List fruits1, List fruits2) {
 }
 
 void main() {
-  print(func([6, 8, 1], [3, 5, 7]));
+  print(func([6, 8, 1], [2, 5, 7]));
 }
 
